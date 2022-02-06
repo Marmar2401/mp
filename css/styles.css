@@ -1,0 +1,72 @@
+body {
+  background-color: #EEE6CE;
+}
+
+hr {
+  background-color: #EEE6CE;
+  color: black;
+  border-style: none;
+  border-top-style: dotted;
+  width: 25%;
+  border-width: 6px;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: #2EB086;
+}
+
+h3 {
+  color: #2EB086;
+}
+
+/* class selector group of elements  */
+.me {
+  background-color: #EEE6CE;
+  border-color: black;
+}
+
+/*sudo class */
+img:hover {
+  background-color: black;
+}
+
+h2:hover {
+  background-color: black;
+}
+
+h3:hover {
+  background-color: black;
+}
+
+a:hover {
+  background-color: black;
+}
+
+a:visited {
+  color: #2EB086;
+}
+
+p:hover {
+  color: #9C0F48;
+}
+
+ol:hover {
+  color: #9C0F48;
+}
+
+ul:hover {
+  color: #9C0F48;
+}
+
+table:hover {
+  color: #9C0F48;
+}
+
+/* id selector take trump over class selectors and is for a specific element*/
+#heading {
+  color: #2EB086;
+}
